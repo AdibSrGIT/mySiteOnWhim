@@ -1,0 +1,378 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    /* margin: 0px auto; */
+    /* text-align: center; */
+    border: solid;
+    border-color: yellow blue green white;
+    border-width: 5px;
+    padding: 0px;
+
+
+    /* Fancy great fonts */
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-family: 'Reenie Beanie', cursive; */
+    /* font-family: 'Nothing You Could Do', cursive; */
+    /* font-family: 'Stalemate', cursive; */
+    /* font-family: 'Sue Ellen Francisco', cursive; */
+
+    /* Basic fonts */
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+
+    /* Cursive fonts */
+    /* font-family: 'WindSong', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+}
+
+.top-container {
+    text-align: center;
+    /* background-color: */
+    /* background: linear-gradient(to top, */
+    background:radial-gradient(circle at bottom,
+        #FFF5A5 6%,
+        #FFC300 30%,
+        #FF9F45,
+        #F45905 50%,
+        #FA1E0E 60%,
+        #C70039 74%,
+        /* #900C3F, */
+        #4b0078 90%,
+        #2e004a 98%
+        );
+    /* width: 20%; */
+    /* height: 70%; */
+    margin: 0 0;
+    /* position: relative; */
+    padding-top: 100px
+
+}
+
+#hill {
+    /* text-align: center; */
+    width: 25rem;
+    margin: 0 auto;
+    display: block;
+    /* position: absolute; */
+    /* top: 250px; */
+    /* right: 50px; */
+
+}
+#top-cloud {
+    position: absolute;
+    /* text-align: center; */
+    top: 100px;
+    left: 70%;
+    /* display: none; */
+}
+#bottom-cloud {
+    position: absolute;
+    top: 250px;
+    left: 15%;
+}
+
+#title_header {
+    color:#FFF5A5;#900C3F;
+
+    /* Gradient text */
+    /* background: -webkit-linear-gradient(270deg,
+        #2e004a 20%,
+        #900C3F
+        );
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; */
+
+    margin: 0 auto;
+    /* margin-top:200px; */
+    /* width: 20%; */
+    /* position: relative; */
+    /* left: 200px; */
+    /* top: 0% */
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Sue Ellen Francisco', cursive; */
+    font-size: 40px;
+    line-height: 1.25;
+
+
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    color: #900C3F;
+    /* text-shadow: 4.5px 5.5px 35px; */
+
+}
+
+#hi {
+    margin-bottom: 0;
+    font-size: 1.25em;
+    color: white;
+
+}
+
+#subtitle {
+    font-size: 1.5em;
+    color:
+    white;
+    /* #FFF5A5; */
+
+    /* background: -webkit-linear-gradient(270deg,
+        #2e004a 40%,
+        #900C3F
+        );
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; */
+}
+
+hr {
+    /* padding: 2rem 0; */
+    border-style: dashed;
+    border-width: medium ;
+    border-bottom: 0 ;
+    border-left: 0;
+    border-right: 0;
+
+    width: 25%;
+    border-color:
+        #FFF5A5;
+        /* #900C3F; */
+    /* position: relative;
+    left: 13rem; */
+}
+
+.middle-container {
+    padding: 8rem auto;
+
+    background:radial-gradient(circle at top,
+        /* background: linear-gradient(to bottom, */
+        /* #FFC300 5%,
+        #FF9F45 15%,
+        #F45905 50%,
+        #FA1E0E 70%,
+        #C70039 90%,
+        #2e004a 98% */
+
+        /* #FFF5A5 6%, */
+        #FFC300 5%,
+        #FF9F45 15%,
+        #F45905 64%,
+        #FA1E0E 75%,
+        #C70039 95%
+        /* #4b0078 82%,
+        #2e004a 90% */
+        );
+
+
+}
+
+
+.profile {
+    padding: 5rem 0;
+}
+
+.skills {
+    padding: 5rem 0;
+}
+
+#adib_image {
+    /* width: 20%; */
+    height: 10rem;
+    /* margin: 0 auto; */
+
+}
+
+
+h3 {
+    margin-top: 0.25rem;
+    /* padding-top: 4.25rem; */
+    text-decoration:underline;
+    font-size: 1.5rem;
+    font-family: 'Reenie Beanie', cursive;
+    /* font-family: 'Sue Ellen Francisco', cursive; */
+    color: #900C3F;
+    line-height: 1.35;
+
+}
+
+
+.skills_img_analytics {
+    width: 205px;
+    margin: auto ;
+    margin-right: 30px;
+    text-align: center;
+    align-content: center;
+    float: left;
+
+}
+
+.skills_img_research {
+    width: 255px;
+    margin: auto ;
+    margin-left: 30px;
+    text-align: center;
+    align-content: center;
+    float: right;
+}
+
+
+.skills_img_community {
+    width: 225px;
+    margin: auto ;
+    margin-right: 30px;
+    text-align: center;
+    align-content: center;
+    float: left;
+}
+.skill-row  {
+    width: 55%;
+    margin:60px auto;
+    text-align: left;
+    line-height: 1.75;
+}
+
+.skills_txt {
+    /* clear: left; */
+}
+
+.contact-me {
+    padding: 4.5rem 0;
+
+}
+
+.btn {
+  background: #2e004a; 3498db;
+  background-image: -webkit-linear-gradient(top, #2e004a, #2e004a, #900C3F);
+  background-image: -moz-linear-gradient(top, #2e004a, #900C3F);
+  background-image: -ms-linear-gradient(top, #2e004a, #900C3F);
+  background-image: -o-linear-gradient(top, #2e004a, #900C3F);
+  background-image: linear-gradient(to bottom, #2e004a, #900C3F);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Sue Ellen Francisco', cursive; */
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 27px ;
+  border: solid #16252e 2px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2.5rem;
+
+}
+
+.btn:hover {
+  background: #4b0078;
+  background-image: -webkit-linear-gradient(top, #4b0078, #900C3F 75%);
+  background-image: -moz-linear-gradient(top, #4b0078, #900C3F 75%);
+  background-image: -ms-linear-gradient(top, #4b0078, #900C3F 75%);
+  background-image: -o-linear-gradient(top, #4b0078, #900C3F 75%);
+  background-image: linear-gradient(to bottom, #4b0078, #900C3F 75%);
+  text-decoration: none;
+}
+.bottom-container {
+    text-align: center;
+    height: 150px;
+    /* width: 200px; */
+    padding: 5rem 0;
+    background: linear-gradient(to top ,
+    /* background:radial-gradient(circle at bottom, */
+        /* #FFF5A5 6%, */
+        /* #FFC300 30%, */
+        /* #FF9F45, */
+        /* #F45905 50%, */
+        /* #FA1E0E 60%, */
+        /* #C70039 74%, */
+        #900C3F,
+        /* #4b0078 5%, */
+        #2e004a 30%
+        );
+}
+
+a {
+
+    font-weight: bold;
+    color: black
+}
+
+.linkedin {
+    text-decoration: none;
+    color:  #FF9F45;
+    font-size: 1.5rem;
+    font-style: ;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.youtube {
+    text-decoration: none;
+    color:  #FF9F45;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.spotify {
+    text-decoration: none;
+    color:  #FF9F45;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.ending_note {
+    color: #FFF5A5;
+}
+
+
+
+
+div {
+    /* background: */
+    /* radial-gradient(circle at 25px 9px, black 2px, transparent 2px), */
+    /* radial-gradient(circle at 49px 28px, black 2px, transparent 2px), */
+    /* radial-gradient(circle at 38px 1px, black 2px, transparent 2px), */
+    /* radial-gradient(circle at 20px 4px, black 2px, transparent 2px), */
+    /* radial-gradient(circle at 80px 4px, black 2px, transparent 2px), */
+    /* radial-gradient(circle at 50px 10px, black 2px, transparent 2px), */
+    /* radial-gradient(circle at 60px 16px, black 2px, transparent 2px), */
+    /* radial-gradient(circle at 70px 16px, black 2px, transparent 2px), */
+    /* radial-gradient(ellipse at 50px 0, red 33px, lime 33px, lime 38px, transparent 38px)
+    white;
+    background-size: 100px 50px; */
+    /* background-color: */
+    #FFAA64;
+
+    #900C3F;
+    #C70039;
+    #FA1E0E;
+    #F12D2D;
+    #FF4646;
+    #F45905;
+    #FC5404;
+    #FF6701;
+    #F76E11;
+    #F37121;
+    #FFC300;
+    #FF9F45;
+
+    #FFF5C0;
+    #FFF5A5;
+    #FFB396;
+    #FF8264;
+    #FD5D5D;
+    #FF6464;
+    #FF5677;
+    #CE49BF;
+    #B958A5;
+    #A63EC5;
+    #9145B6;
+    #4C3F91;
+    #4b0078;
+    #2e004a;
+
+
+}
